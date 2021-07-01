@@ -11458,11 +11458,20 @@ fieldset:disabled .btn {
   }
 }
 
-:root {
-  --color-main: red;
+body {
+  color: white;
 }
 
-.test {
-  background-color: var(--color-main);
+.navbar {
+  background: linear-gradient(130deg, blue, lightblue);
+}
+
+.home-container {
+  background-color: aqua;
+}
+
+.footer {
+  color: white;
+  background: linear-gradient(130deg, blue, lightblue);
 }
 /*# sourceMappingURL=styles.css.map */
